@@ -1,0 +1,265 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+.body {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.wrap__h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+.wrap__h2 {
+    width: 100px;
+    height: 100px;
+    }
+
+.box {
+    background-color: rgb(57, 50, 50);
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    color: rgb(128, 128, 128);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flexbox;
+    justify-content: center;
+
+}
+
+.wrap__h2_ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+  }
+  
+.wrap__h2_ {
+    width: 100px;
+    height: 100px;
+    }
+
+.box__buttonlogin {
+    color: white;
+    background-color: rgba(218, 11, 11, 0.66);
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    margin: 10px 0 0 120px;
+    
+    
+}
+
+.box__forgotik {
+    color: rgb(207, 200, 200);
+    background-color: rgb(57, 50, 50);
+    border: none;
+    margin: 60px 10px;
+}
+
+.box__inputemail {
+  background-color:rgb(81, 70, 70); 
+  text-emphasis-color:  red;
+  border: none; 
+  border-radius: 7px; 
+  outline: none; 
+  box-shadow: none;
+  text-align: center;
+  margin: 0 0 0 100px;
+  width: 175px;
+  height: 30px;
+  opacity: 1;
+}
+
+.box__passbox {
+  background-color: rgb(81, 70, 70); 
+  color: rgb(222, 16, 16);
+  text-emphasis-color:  red;
+  border: none; 
+  border-radius: 7px; 
+  outline: none; 
+  box-shadow: none;
+  text-align: center;
+  margin: 0 0 0 100px;
+  width: 175px;
+  height: 30px;
+  opacity: 1;
+}
+
+.box__login {
+    margin: 0 0 0 150px;
+    color: white;
+    font-size: 30px;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.flex input {
+  order: 2;
+}
+
+.flex input:focus+label {
+  color: red;
+}
+
+.box2 {
+  display: flexbox;
+  margin: -330px 0 0 430px;
+  width: 380px;
+  height: 400px;
+  background-color: rgb(57, 50, 50);
+  border-radius: 15px;
+  align-items: center;
+  
+}
+
+#box2__firstname {
+  background-color: rgb(81, 70, 70);
+  border: none;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  border-radius: 7px;
+  margin: 10px 0 0 20px;
+}
+#box2__lastname {
+  background-color: rgb(81, 70, 70);
+  border: none;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  border-radius: 7px;
+  margin: 10px 0 0 20px;
+}
+
+.box2__sign {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+#box2__Emailoruser {
+  display: flex;
+  border: none;
+  border-radius: 7px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(81, 70, 70);
+  justify-content: center;
+  align-content: center;
+  margin: 15px 0 0 85px;
+  text-align: center;
+
+}
+
+#box2__Password42 {
+  display: flex;
+  border: none;
+  border-radius: 7px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(81, 70, 70);
+  justify-content: center;
+  align-content: center;
+  margin: 15px 0 0 85px;
+  text-align: center;
+
+}
+
+.box2__continue {
+  color: white;
+  background-color: rgba(218, 11, 11, 0.66);
+  border-radius: 25px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  margin: 10px 0 0 120px;
+}
+.box2__haveacc {
+  color: rgb(207, 200, 200);
+  background-color: rgb(57, 50, 50);
+  border: none;
+  margin: 70px 10px;
+}
